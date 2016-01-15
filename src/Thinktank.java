@@ -11,7 +11,6 @@ public class Thinktank {
         * else assign 70
         * */
         aNum = (anotherNum == 10)? 5: 70;
-
         System.out.println("aNum = " + aNum);
     }
 }
