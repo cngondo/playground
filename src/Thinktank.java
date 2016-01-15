@@ -11,7 +11,7 @@ public class Thinktank {
         * else assign 70
         *
         * (Exp1)? (Exp 2):(Exp 3)
-        * If Exp1 is true, do Exp 2 else do Exp 2
+        * If Exp1 is true, do Exp 2 else do Exp 3
         *
         * Good for longer lines of code with multiple logic statements
         * Fster in execution
