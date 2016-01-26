@@ -5,7 +5,7 @@ package calculation.calc;
  */
 public class MyCalc extends Calculation {
     //Method that multiples numbers
-    public void multiplication(int x, int y){
+    protected void multiplication(int x, int y){
         z = x * y;
         System.out.println("The product of these numbers is: "+ z);
     }
