@@ -11,9 +11,8 @@ import java.util.Scanner;
 public class Time {
     int secin;
     static public void main(String[]args){
-        Scanner input = new Scanner(System.in);
         System.out.println("Enter time in seconds: ");
-        int secin = input.nextInt();
+        int secin = new Scanner(System.in).nextInt();
     }
 
     int hours(){
