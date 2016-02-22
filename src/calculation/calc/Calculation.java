@@ -5,8 +5,12 @@ package calculation.calc;
  */
 public class Calculation {
     int z;
+
+//    Calculation cl = new Calculation();
+//    cl.addition(3, 5);
+
     //Method that adds numbers
-    protected void addition(int x, int y){
+    public void addition(int x, int y){
         z = x + y;
         System.out.println("The sum of the given numbers is:" + z);
     }

@@ -6,7 +6,7 @@ package thinktank.think;
 public class Thinktank {
     public void testnumbers(){
         int aNum;
-        int anotherNum = 10;
+        int anotherNum = 12;
         /*
         * Testing tenary operator
         * check if anotherNum = 10. If it's true assign 5 to aNum
