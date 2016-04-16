@@ -12,9 +12,9 @@ public class Area {
         //prompt user for input
         System.out.println("Enter radius of a circle: ");
         //capture the input
-        double r = new Scanner(System.in).nextDouble();
+//        double r = new Scanner(System.in).nextDouble();
         //use the circle object to set the radius as the input
-        circle.setRadius(r);
+        circle.setRadius(67);
         //Finally capture the radius and capture the area in the output
         System.out.print("A circle with radius " + circle.getRadius() + " has an area of " + circle.getArea());
     }
