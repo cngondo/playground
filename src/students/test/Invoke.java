@@ -26,8 +26,6 @@ public class Invoke {
 
         {System.out.println("Fail");}
 
-
-
         System.out.println("Your grade is "+ Grade);
 
     }
