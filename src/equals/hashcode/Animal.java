@@ -1,7 +1,5 @@
 package equals.hashcode;
 
-import javax.swing.plaf.synth.SynthEditorPaneUI;
-
 /**
  * Created by ngondo on 8/2/16.
  */
@@ -38,7 +36,6 @@ public class Animal {
         * Whenever you implement equals(), you must also implement hashCode().
         * */
         System.out.println(a.equals(b));
-
         /*
         * However, the object references are not the same even if they are semantically equal.
         * */
