@@ -4,12 +4,10 @@ package animal.overriding;
 * */
 public class TestDog {
     public static void main(String... args){
-        /*
-        * Make the Dog class static so that one can refer to it in the static contex of the main method
-        *
-        * */
+       //Work with the objects to see the overriding effect
         Animal animal = new Animal();
         Animal dog = new Dog();
+        Dog anotherDog = new Dog();
 
 //        Output in the console
         animal.move();
@@ -19,6 +17,6 @@ public class TestDog {
         * It can only refer to methods in the class. However, referring to Dog.bark() will work
         * */
 //        dog.bark();
-        new Dog().bark();// Works perfectly due to great object reference
+        anotherDog.bark();// Works perfectly due to great object reference
     }
 }
